@@ -1,56 +1,92 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# React Native Mock Interview App
 
-## Get started
 
-1. Install dependencies
+A streamlined mobile application template designed and reviewed during a senior software engineer mock interview session.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## Features
 
-   ```bash
-   npx expo start
-   ```
+* **Cross-Platform Support**: Built with React Native to run seamlessly on both iOS and Android devices.
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* **Live Code Preview**: Integrated with Expo for instant feedback and real-time component rendering.
 
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+* **Clean State Management**: Implements structured application states following best practices for mobile architecture.
+* **Responsive Layout**: Designed with flexible Flexbox styles to adapt to various screen sizes and orientations.
 
-When you're ready, run:
+---
 
+## Prerequisites
+
+Before getting started, make sure you have the following installed on your system:
+
+* [Node.js](https://nodejs.org/) (LTS version recommended)
+* [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+* [Expo CLI](https://docs.expo.dev/get-started/installation/) (or the Expo Go app on your mobile device for testing)
+
+---
+
+## Installation
+
+Follow these steps to set up the project locally:
+
+1. **Clone the repository:**
 ```bash
-npm run reset-project
+git clone https://github.com/username/react-native-mock-interview.git
+cd react-native-mock-interview
+
 ```
 
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
 
-### Other setup steps
+2. **Install dependencies:**
+```bash
+npm install
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+```
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+3. **Start the development server:**
+```bash
+npx expo start
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```
 
-## Join the community
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## Usage
+
+Once the development server is running, you can launch the app using one of the following methods:
+
+* **iOS Simulator:** Press `i` in your terminal (macOS required).
+* **Android Emulator:** Press `a` in your terminal.
+* **Physical Device:** Scan the QR code displayed in your terminal using the **Expo Go** app (iOS) or camera app (Android).
+
+Example of modifying the main view in `App.js`:
+
+```javascript
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Text>Welcome to your React Native mock interview project!</Text>
+    </View>
+  );
+}
+
+```
+
+---
+
+## Contributing
+
+We welcome contributions to improve this project! Please read our [CONTRIBUTING.md](https://www.google.com/search?q=./CONTRIBUTING.md) file for guidelines on how to submit pull requests, report issues, and suggest new features.
+
+---
+
+## License
+
+This project is open-source and available under the [MIT License](https://www.google.com/search?q=./LICENSE).
